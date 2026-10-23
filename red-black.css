@@ -1,0 +1,90 @@
+/* Black Dream: warm-white reading surfaces, charcoal shadows, stage-red accents. */
+:root{--ink:#f1ece9;--paper:#101013;--acid:#ff6269;--line:#3e3439;--muted:#b7aaa8;--dark:#1c181c;color-scheme:dark}
+body{background:#101013;color:#f1ece9}
+button{color:inherit}
+button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #ff8990}
+.topbar{background:#151316;border-bottom-color:#493039}
+.brand strong{font-size:23px;font-weight:900;letter-spacing:2px}
+.brand small{color:#bfb0ae;letter-spacing:2px}
+.brand-icon{background:#b91f30;color:#fff1ee}
+.tools input{accent-color:#f05a65}
+.sound-button{border-color:#8f555e;color:#f3dfdc}
+.text-btn{color:#d7c5c1}
+.save-state{color:#b9aca8}
+.sidebar{background:#141215}
+.band-stamp{border-bottom-color:#4b3a40}
+.band-stamp .eyebrow,.nav-item{color:#bcb0ae}
+.badge{color:#f19b9c;border-color:#7e454e}
+.nav-item.active{background:#30181f;color:#fff2ef;box-shadow:inset 3px 0 #f15a65}
+.nav-item:not(.active):hover{background:#21191e;color:#fff}
+.side-quote{color:#b7aaa8;border-left-color:#a13b48}
+.side-ticket{color:#b7aaa8;border-top-color:#514047}
+.breadcrumb,.page-title p,.section-head small,.stat small,.stat .unit,.timeline-labels,.footer{color:#b7aaa8}
+.date-chip{border-color:#60414b;color:#dfcecb}
+.stats{background:#1b181d}
+.stat-bar{background:#3b2b33}
+.stat-bar i{background:#e05a65}
+.danger,.low-warning{color:#ffaaa0}
+.stage{background:#161015;border-color:#57303b;color:#f5e9e7}
+.stage-footer{color:#d4b9bb}
+.live-dot{background:#ff6269;box-shadow:0 0 12px #f54360}
+.poster-label,.ap{background:#ba2638;color:#fff4ef}
+.action{background:#1d191e;border-color:#4b373f;color:#f1ece9}
+.action small,.action:disabled small{color:#c3b1b0}
+.action:not(:disabled):hover{background:#321d26;border-color:#b64a5d}
+.action.used{background:#371e27;border-color:#995365}
+.event-card{background:#21191f;border-color:#62404b}
+.event-card:before{background:#88455588}
+.event-top,.speaker{color:#d8a4a9}
+.event-card p{color:#d6c6c2}
+.choice{border-color:#67444e;color:#f4e8e4;background:#20181d}
+.choice small{color:#c4aeae}
+.choice:hover{background:#38212b;border-color:#d56478}
+.resolved{background:#331f29;color:#eeded8;border-left-color:#ef6576}
+.note,.recent p,.song-info p,.member p,.empty,.style-line,.now-playing{color:#c0afac}
+.next-row{border-top-color:#49323b}
+.primary,.primary.lime{background:#b91f30;color:#fff4ef}
+.primary:hover,.primary.lime:hover{background:#d32e42}
+.secondary{border-color:#88515f;background:#21181e;color:#f0ddda}
+.secondary:hover{background:#38212a}
+.recent{border-color:#4d3640;background:#18151a}
+.timeline span{background:#3d3037}
+.timeline span.done{background:#913645}
+.timeline span.current{background:#ff6269}
+.song-card,.member,.panel{background:#1b171d;border-color:#4c3540}
+.record{background:repeating-radial-gradient(circle,#181318 0,#181318 2px,#46303b 3px,#181318 4px)}
+.record:after{background:#b91f30;border-color:#6b2638;color:#fff4ef}
+.member-portrait{background:#34212b;color:#e2b9bc}
+.relation{border-top-color:#60424b}
+.promise{background:#301e27;border-left-color:#f16b7c;color:#f0ddda}
+.journal{border-left-color:#68424f}
+.entry:before{background:#e66679;border-color:#101013}
+.entry small{color:#d299a3}
+.mood-bar{background:#492833}
+.mood-bar i{background:#ff6269}
+.set-song{background:#211920;border-color:#65404e;color:#f3e5e1}
+.set-song small{color:#c0abae}
+.set-song.selected{background:#41212e;border-color:#ef788d}
+.slot{border-color:#805462;color:#e6cfcc}
+.result-stats>div{border-color:#6b4050}
+.result-stats small{color:#c5adae}
+.chapter-card{background:#201219;color:#fbede9}
+.chapter-card p{color:#d5bdbe}
+.chapter-card .chapter-number{color:#4d2332}
+.ending-card{background:#1b151b;border-color:#71414f}
+.ending-card p{color:#d3bdba}
+.ending-stamp{border-color:#ee879b;color:#ee879b}
+.ending-card blockquote{background:#371e29;border-left-color:#f37a8e;color:#fae7df}
+.ending-grid{border-color:#714958}
+.ending-grid small{color:#cab0b2}
+.overlay{background:#0a060bdc}
+.modal{background:#1d151c;border-color:#8a4a60;box-shadow:12px 12px 0 #0006}
+.modal p{color:#ccb7b4}
+.modal .eyebrow{color:#eea7b2}
+.modal input[type=text]{background:#110e12;border-color:#936070;color:#fff1eb}
+.style-option{border-color:#805260;color:#e9d8d1}
+.style-option.active{background:#b91f30;color:#fff4ef;border-color:#f18796}
+.tutorial{border-color:#71515c}
+.hint-pill{border-color:#8b5c69;color:#f0d7d3}
+#toast{background:#321821;color:#fff1eb;border-color:#ec7d91}
+@media(max-width:650px){.brand strong{font-size:17px;letter-spacing:1px}.brand small{font-size:9px;letter-spacing:1px}.topbar{gap:8px}.tools{gap:2px}.brand{gap:8px}.brand-icon{width:32px;line-height:34px;flex-shrink:0}}
